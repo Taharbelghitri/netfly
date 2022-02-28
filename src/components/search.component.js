@@ -5,7 +5,6 @@ import events from "../utils/events";
 const Search = () => {
   const animation = useAnimation();
   events.handleSearhPageChanges(async (e) => {
-    console.log(e);
     if (e) {
       await animation.start({ display: "flex" });
       animation.start({ opacity: 1, transition: { duration: 0.5 } });

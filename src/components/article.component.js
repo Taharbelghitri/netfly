@@ -10,11 +10,21 @@ const ArticleComponent = () => {
           One of the most important things about influenza, according to experts
           , its not to blame or make assuptions about others.
         </span>
-        <div className="flex justify-between max-w-[150px] text-red font-bold ">
-          <span>220 like</span>
+        <span className="text-grey font mb-[20px]">
+          One of the most important things about influenza, according to experts
+          , its not to blame or make assuptions about others. One of the most
+          important things about influenza, according to experts , its not to
+          blame or make assuptions about others. One of the most important
+          things about influenza, according to experts , its not to blame or
+          make assuptions about others. One of the most important things about
+          influenza, according to experts , its not to blame or make assuptions
+          about others.
+        </span>
+        <div className="flex justify-between max-w-[200px] text-red font-bold ">
+          <span>5min read</span>
           <span>1100 view</span>
         </div>
-        <div className="h-[20vw] bg-grey mt-[30px]" />
+        <div className="h-[20vw] bg-grey mt-[30px] max-h-[300px]" />
       </div>
       <div className="flex justify-between flex-wrap bg">
         <ArticleContent />

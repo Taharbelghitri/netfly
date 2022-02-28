@@ -1,8 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const SingleArticle = () => (
-  <div className="flex flex-col tablet:w-[45vw] ">
-    <div className="w-full mt-[30px] h-[25vw] tablet:h-[15vw] laptop:h-[10vw] bg-grey max-h-[200px]" />
+  <Link to="/article/one" className="flex flex-col tablet:w-[45vw] ">
+    <div className="w-full mt-[30px] h-[25vw] tablet:h-[15vw] laptop:h-[10vw] bg-grey max-h-[150px]" />
     <span className="mt-[20px] font-bold">
       One of the most important things about influenza, according to experts ,
       its not to blame or make assuptions about others.
@@ -13,7 +14,7 @@ const SingleArticle = () => (
       <span> 564 likes </span>
     </div>
     <div className="h-[2px] mt-[20px] bg-grey w-[30%]" />
-  </div>
+  </Link>
 );
 
 const SideBar = () => {

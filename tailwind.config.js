@@ -10,7 +10,7 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        josifin: ["Josefin Sans"],
+        josifin: ["Source Serif Pro"],
       },
       screens: {
         phone: "360px",

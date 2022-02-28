@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -9,6 +9,6 @@
     @apply bg-white  p-0 m-0 box-border text-[16px] font-josifin;
   }
   @font-face {
-    font-family: [ "Josefin Sans", sans-serif];
+    font-family: [ "Source Serif Pro", serif];
   }
 }
