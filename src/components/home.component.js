@@ -19,8 +19,8 @@ const HomeComponent = () => {
           </span>
         </span>
         <div className="mt-[-100px] h-[100vw] flex justify-between w-full tablet:h-[50vw] max-h-[800px] ">
-          <div className="w-full bg-[url('./assets/homepic01.jpg')] bg-cover bg-top h-full tablet:w-[44vw] mix-blend-luminosity max-h-[800px] max-w-[700px]" />
-          <div className="hidden tablet:block bg-[url('./assets/homepic02.jpg')] bg-cover bg-top h-full w-[44vw] mix-blend-luminosity max-h-[800px] max-w-[700px]" />
+          <div className="w-full bg-[url('./assets/homepic01.jpg')] bg-cover bg-top h-full tablet:w-[44vw] max-h-[800px] max-w-[700px]" />
+          <div className="hidden tablet:block bg-[url('./assets/homepic02.jpg')] bg-cover bg-top h-full w-[44vw] max-h-[800px] max-w-[700px]" />
         </div>
       </div>
 
@@ -38,4 +38,7 @@ const HomeComponent = () => {
     </div>
   );
 };
+/*
+
+*/
 export default HomeComponent;

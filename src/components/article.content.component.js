@@ -1,14 +1,7 @@
 import React from "react";
 const ArticleContent = () => {
   return (
-    <div className="flex flex-col mt-[20px] max-w-[700px] ">
-      {/* <span className="font-bold">introduction</span>
-      <span className="font-bold text-grey mb-[30px]">
-        One of the most important things about influenza, according to experts ,
-        its not to blame or make assuptions about others. One of the most
-        important things about influenza, according to experts , its not to
-        blame or make assuptions about others.
-      </span> */}
+    <div className="flex flex-col mt-[20px] max-w-[700px] text-[16px]">
       <span className="mt-[15px]">
         React is the world’s most popular JavaScript framework, but it’s not
         cool because it’s popular. It’s popular because it’s cool. Most React
